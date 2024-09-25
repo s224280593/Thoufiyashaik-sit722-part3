@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: book_catalog
     environment:
-      - PORT=8000
+      - PORT=7000
       - DATABASE_URL=postgresql://thoufiya_sit722_part3_fgz4_user:gO06rHRjQ3R7TTT1iNrIp0txA6OHUXsq@dpg-crom97q3esus73c3g1h0-a.oregon-postgres.render.com/thoufiya_sit722_part3_fgz4
 
   inventory_management:
@@ -17,5 +17,5 @@ services:
       dockerfile: Dockerfile
     container_name: inventory_management
     environment:
-      - PORT=8001
+      - PORT=7001
       - DATABASE_URL=postgresql://thoufiya_sit722_part3_fgz4_user:gO06rHRjQ3R7TTT1iNrIp0txA6OHUXsq@dpg-crom97q3esus73c3g1h0-a.oregon-postgres.render.com/thoufiya_sit722_part3_fgz4
